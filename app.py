@@ -7,7 +7,7 @@ OPENROUTER_API_KEY = "sk-or-v1-aec482f964b753bde94e90199d77928af2bc53f3753c8fcec
 MODEL = "mistralai/mistral-7b-instruct"
 HEADERS = {
   "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-  "HTTP-Referer": "http://localhost:8501",
+  "HTTP-Referer": "https://example-deploy-chatbot.streamlit.app",
   "X-Title": "AI Chatbot Streamlit"
 }
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
